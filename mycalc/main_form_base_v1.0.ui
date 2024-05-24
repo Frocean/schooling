@@ -1,0 +1,322 @@
+<!DOCTYPE UI><UI>
+<class>TMainFormBase</class>
+<widget>
+    <class>QWidget</class>
+    <property stdset="1">
+        <name>name</name>
+        <cstring>TMainFormBase</cstring>
+    </property>
+    <property stdset="1">
+        <name>geometry</name>
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>472</width>
+            <height>240</height>
+        </rect>
+    </property>
+    <property stdset="1">
+        <name>maximumSize</name>
+        <size>
+            <width>480</width>
+            <height>240</height>
+        </size>
+    </property>
+    <property stdset="1">
+        <name>caption</name>
+        <string>2021210720</string>
+    </property>
+    <widget>
+        <class>QListBox</class>
+        <item>
+            <property>
+                <name>text</name>
+                <string>binary</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>octonary</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>decimal</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>hexdecimal</string>
+            </property>
+        </item>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_x</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>96</width>
+                <height>31</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QMultiLineEdit</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>i_x</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>100</x>
+                <y>0</y>
+                <width>360</width>
+                <height>40</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QListBox</class>
+        <item>
+            <property>
+                <name>text</name>
+                <string>(+) add</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>(-) subtract</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>(*) multiply</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>(/) divide</string>
+            </property>
+        </item>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_o</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>0</x>
+                <y>50</y>
+                <width>96</width>
+                <height>31</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QListBox</class>
+        <item>
+            <property>
+                <name>text</name>
+                <string>binary</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>octonary</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>decimal</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>hexdecimal</string>
+            </property>
+        </item>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_y</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>0</x>
+                <y>100</y>
+                <width>96</width>
+                <height>31</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QMultiLineEdit</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>i_y</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>100</x>
+                <y>100</y>
+                <width>360</width>
+                <height>35</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QListBox</class>
+        <item>
+            <property>
+                <name>text</name>
+                <string>binary</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>octonary</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>decimal</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>hexdecimal</string>
+            </property>
+        </item>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_z</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>0</x>
+                <y>200</y>
+                <width>96</width>
+                <height>31</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QMultiLineEdit</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>o_ans</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>100</x>
+                <y>200</y>
+                <width>360</width>
+                <height>35</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_ans</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>0</x>
+                <y>150</y>
+                <width>220</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>Get Answer</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_c</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>240</x>
+                <y>150</y>
+                <width>220</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>C/CE</string>
+        </property>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>s_ans</sender>
+        <signal>clicked()</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_ans()</slot>
+    </connection>
+    <connection>
+        <sender>s_x</sender>
+        <signal>selected(int)</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_x()</slot>
+    </connection>
+    <connection>
+        <sender>s_y</sender>
+        <signal>selected(int)</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_y()</slot>
+    </connection>
+    <connection>
+        <sender>s_o</sender>
+        <signal>selected(int)</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_op()</slot>
+    </connection>
+    <connection>
+        <sender>s_z</sender>
+        <signal>selected(int)</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_z()</slot>
+    </connection>
+    <connection>
+        <sender>s_c</sender>
+        <signal>clicked()</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_c()</slot>
+    </connection>
+    <slot access="public">slot_ans()</slot>
+    <slot access="public">slot_c()</slot>
+    <slot access="public">slot_op()</slot>
+    <slot access="public">slot_x()</slot>
+    <slot access="public">slot_y()</slot>
+    <slot access="public">slot_z()</slot>
+</connections>
+</UI>
