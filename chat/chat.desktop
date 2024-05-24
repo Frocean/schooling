@@ -1,0 +1,11 @@
+[Translation]
+File=QtopiaSettings
+Context=chat
+Comment[Desktop Entry/Name]=Use soft hyphen (char U00AD) to indicate hyphenation
+[Desktop Entry]
+Exec=chat
+Icon=chat
+Type=Application
+Name[]=Tencen pp 2024
+CanFastload=0
+

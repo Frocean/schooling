@@ -1,0 +1,765 @@
+<!DOCTYPE UI><UI>
+<class>TMainFormBase</class>
+<widget>
+    <class>QWidget</class>
+    <property stdset="1">
+        <name>name</name>
+        <cstring>TMainFormBase</cstring>
+    </property>
+    <property stdset="1">
+        <name>geometry</name>
+        <rect>
+            <x>62</x>
+            <y>52</y>
+            <width>720</width>
+            <height>405</height>
+        </rect>
+    </property>
+    <property stdset="1">
+        <name>maximumSize</name>
+        <size>
+            <width>720</width>
+            <height>405</height>
+        </size>
+    </property>
+    <property stdset="1">
+        <name>caption</name>
+        <string>2021210720</string>
+    </property>
+    <widget>
+        <class>QListBox</class>
+        <item>
+            <property>
+                <name>text</name>
+                <string>binary</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>octonary</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>decimal</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>hexdecimal</string>
+            </property>
+        </item>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_z</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>10</x>
+                <y>300</y>
+                <width>100</width>
+                <height>70</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QMultiLineEdit</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>i_x</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>120</x>
+                <y>10</y>
+                <width>430</width>
+                <height>40</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QMultiLineEdit</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>i_y</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>120</x>
+                <y>80</y>
+                <width>430</width>
+                <height>40</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QMultiLineEdit</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>o_ans</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>120</x>
+                <y>330</y>
+                <width>430</width>
+                <height>40</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QListBox</class>
+        <item>
+            <property>
+                <name>text</name>
+                <string>binary</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>octonary</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>decimal</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>hexdecimal</string>
+            </property>
+        </item>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_y</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>560</x>
+                <y>50</y>
+                <width>100</width>
+                <height>70</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QListBox</class>
+        <item>
+            <property>
+                <name>text</name>
+                <string>binary</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>octonary</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>decimal</string>
+            </property>
+        </item>
+        <item>
+            <property>
+                <name>text</name>
+                <string>hexdecimal</string>
+            </property>
+        </item>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_x</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>100</width>
+                <height>70</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>frameShape</name>
+            <enum>StyledPanel</enum>
+        </property>
+        <property stdset="1">
+            <name>frameShadow</name>
+            <enum>Sunken</enum>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_c</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>120</x>
+                <y>280</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>C</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_b</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>120</x>
+                <y>230</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>B</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_a</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>120</x>
+                <y>180</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>A</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_0</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>120</x>
+                <y>130</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>0</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_1</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>230</x>
+                <y>130</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>1</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_4</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>230</x>
+                <y>180</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>4</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_2</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>340</x>
+                <y>130</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>2</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_5</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>340</x>
+                <y>180</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>5</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_3</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>450</x>
+                <y>130</y>
+                <width>101</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>3</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_6</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>450</x>
+                <y>180</y>
+                <width>101</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>6</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_7</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>230</x>
+                <y>230</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>7</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_8</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>340</x>
+                <y>230</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>8</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_9</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>450</x>
+                <y>230</y>
+                <width>101</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>9</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_d</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>230</x>
+                <y>280</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>D</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_e</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>340</x>
+                <y>280</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>E</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>k_f</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>450</x>
+                <y>280</y>
+                <width>101</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>F</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_c</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>10</x>
+                <y>130</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>C/CE</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_1</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>10</x>
+                <y>180</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string></string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_2</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>10</x>
+                <y>230</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string></string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_o0</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>560</x>
+                <y>130</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>(+) add</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_o1</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>560</x>
+                <y>180</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>(-) subtract</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_o2</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>560</x>
+                <y>230</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>(*) multiply</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_o3</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>560</x>
+                <y>280</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>(/) divide</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>s_ans</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>560</x>
+                <y>330</y>
+                <width>100</width>
+                <height>40</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>Get Answer</string>
+        </property>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>s_ans</sender>
+        <signal>clicked()</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_ans()</slot>
+    </connection>
+    <connection>
+        <sender>s_x</sender>
+        <signal>selected(int)</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_x()</slot>
+    </connection>
+    <connection>
+        <sender>s_y</sender>
+        <signal>selected(int)</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_y()</slot>
+    </connection>
+    <connection>
+        <sender>s_z</sender>
+        <signal>selected(int)</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_z()</slot>
+    </connection>
+    <connection>
+        <sender>s_c</sender>
+        <signal>clicked()</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_c()</slot>
+    </connection>
+    <connection>
+        <sender>s_o0</sender>
+        <signal>clicked()</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_o0()</slot>
+    </connection>
+    <connection>
+        <sender>s_o1</sender>
+        <signal>clicked()</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_o1()</slot>
+    </connection>
+    <connection>
+        <sender>s_o2</sender>
+        <signal>clicked()</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_o2()</slot>
+    </connection>
+    <connection>
+        <sender>s_o3</sender>
+        <signal>clicked()</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_o3()</slot>
+    </connection>
+    <connection>
+        <sender>i_x</sender>
+        <signal>textChanged()</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_i1()</slot>
+    </connection>
+    <connection>
+        <sender>i_y</sender>
+        <signal>textChanged()</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_i2()</slot>
+    </connection>
+    <slot access="public">slot_i2()</slot>
+    <slot access="public">slot_ans()</slot>
+    <slot access="public">slot_c()</slot>
+    <slot access="public">slot_i1()</slot>
+    <slot access="public">slot_o0()</slot>
+    <slot access="public">slot_o1()</slot>
+    <slot access="public">slot_o2()</slot>
+    <slot access="public">slot_o3()</slot>
+    <slot access="public">slot_x()</slot>
+    <slot access="public">slot_y()</slot>
+    <slot access="public">slot_z()</slot>
+</connections>
+</UI>

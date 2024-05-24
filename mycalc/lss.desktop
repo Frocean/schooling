@@ -1,0 +1,11 @@
+[Translation]
+File=QtopiaSettings
+Context=mycalc
+Comment[Desktop Entry/Name]=Use soft hyphen (char U00AD) to indicate hyphenation
+[Desktop Entry]
+Exec=mycalc
+Icon=mycalc
+Type=Application
+Name[]=My Calculator
+CanFastload=0
+

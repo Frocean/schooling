@@ -1,0 +1,246 @@
+<!DOCTYPE UI><UI>
+<class>TMainFormBase</class>
+<widget>
+    <class>QWidget</class>
+    <property stdset="1">
+        <name>name</name>
+        <cstring>TMainFormBase</cstring>
+    </property>
+    <property stdset="1">
+        <name>geometry</name>
+        <rect>
+            <x>66</x>
+            <y>22</y>
+            <width>280</width>
+            <height>300</height>
+        </rect>
+    </property>
+    <property stdset="1">
+        <name>maximumSize</name>
+        <size>
+            <width>280</width>
+            <height>300</height>
+        </size>
+    </property>
+    <property stdset="1">
+        <name>caption</name>
+        <string>2021210720-Tencen pp 2024</string>
+    </property>
+    <widget>
+        <class>QLabel</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>text_port</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>20</x>
+                <y>40</y>
+                <width>80</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>Client's Port</string>
+        </property>
+        <property stdset="1">
+            <name>alignment</name>
+            <set>AlignCenter</set>
+        </property>
+        <property>
+            <name>hAlign</name>
+        </property>
+    </widget>
+    <widget>
+        <class>QLabel</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>text_ip</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>20</x>
+                <y>20</y>
+                <width>80</width>
+                <height>20</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>Client's IP</string>
+        </property>
+        <property stdset="1">
+            <name>alignment</name>
+            <set>AlignCenter</set>
+        </property>
+        <property>
+            <name>hAlign</name>
+        </property>
+    </widget>
+    <widget>
+        <class>QLineEdit</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>t_ip</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>100</x>
+                <y>20</y>
+                <width>80</width>
+                <height>20</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QLineEdit</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>t_port</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>100</x>
+                <y>40</y>
+                <width>80</width>
+                <height>20</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QMultiLineEdit</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>t_edit</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>10</x>
+                <y>190</y>
+                <width>260</width>
+                <height>50</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QTextBrowser</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>t_recv</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>10</x>
+                <y>60</y>
+                <width>260</width>
+                <height>125</height>
+            </rect>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>t_send</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>220</x>
+                <y>245</y>
+                <width>50</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>Send</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>t_clear</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>170</x>
+                <y>245</y>
+                <width>50</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>Clear</string>
+        </property>
+    </widget>
+    <widget>
+        <class>QPushButton</class>
+        <property stdset="1">
+            <name>name</name>
+            <cstring>t_close</cstring>
+        </property>
+        <property stdset="1">
+            <name>geometry</name>
+            <rect>
+                <x>120</x>
+                <y>245</y>
+                <width>50</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property stdset="1">
+            <name>text</name>
+            <string>Close</string>
+        </property>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>t_ip</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_ip()</slot>
+    </connection>
+    <connection>
+        <sender>t_port</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_port()</slot>
+    </connection>
+    <connection>
+        <sender>t_send</sender>
+        <signal>clicked()</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_send()</slot>
+    </connection>
+    <connection>
+        <sender>t_clear</sender>
+        <signal>clicked()</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_clear()</slot>
+    </connection>
+    <connection>
+        <sender>t_close</sender>
+        <signal>clicked()</signal>
+        <receiver>TMainFormBase</receiver>
+        <slot>slot_close()</slot>
+    </connection>
+    <slot access="public">slot_clear()</slot>
+    <slot access="public">slot_close()</slot>
+    <slot access="public">slot_edit()</slot>
+    <slot access="public">slot_ip()</slot>
+    <slot access="public">slot_port()</slot>
+    <slot access="public">slot_send()</slot>
+</connections>
+</UI>
